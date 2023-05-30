@@ -1,6 +1,30 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#252525",
+					"name": "Foreground",
+					"slug": "foreground"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#9f393d",
+					"name": "Link",
+					"slug": "link"
+				},
+				{
+					"color": "#bf4c51",
+					"name": "Link Hover",
+					"slug": "link-hover"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
@@ -86,8 +110,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--black)"
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
 		},
 		"elements": {
 			"h2": {
@@ -124,12 +148,15 @@
 			},
 			"link": {
 				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--link-hover)"
+					},
 					"typography": {
 						"textDecoration": "none"
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--primary)"
+					"text": "var(--wp--preset--color--link)"
 				}
 			}
 		},
