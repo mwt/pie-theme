@@ -15,13 +15,8 @@
 				},
 				{
 					"color": "#9f393d",
-					"name": "Link",
-					"slug": "link"
-				},
-				{
-					"color": "#bf4c51",
-					"name": "Link Hover",
-					"slug": "link-hover"
+					"name": "Primary",
+					"slug": "primary"
 				}
 			]
 		},
@@ -148,15 +143,12 @@
 			},
 			"link": {
 				":hover": {
-					"color": {
-						"text": "var(--wp--preset--color--link-hover)"
-					},
 					"typography": {
 						"textDecoration": "none"
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--link)"
+					"text": "var(--wp--preset--color--primary)"
 				}
 			}
 		},
