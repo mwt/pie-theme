@@ -1,5 +1,4 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
@@ -32,6 +31,44 @@
 					"fontFamily": "Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif",
 					"name": "Antique Serif",
 					"slug": "system-antique"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Latin Modern Roman",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/latin-modern-roman_normal_400.woff2"
+							]
+						},
+						{
+							"fontFamily": "Latin Modern Roman",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/latin-modern-roman_normal_700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Latin Modern Roman",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/latin-modern-roman_italic_700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Latin Modern Roman",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/latin-modern-roman_italic_400.woff2"
+							]
+						}
+					],
+					"fontFamily": "Latin Modern Roman",
+					"slug": "latin-modern-roman"
 				}
 			]
 		},
@@ -39,8 +76,8 @@
 	},
 	"styles": {
 		"color": {
-			"background": "var(--wp--preset--color--background)",
-			"text": "var(--wp--preset--color--foreground)"
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--black)"
 		},
 		"elements": {
 			"link": {
@@ -64,7 +101,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|system-oldstyle"
+			"fontFamily": "var(--wp--preset--font-family--latin-modern-roman)"
 		}
 	},
 	"templateParts": [
@@ -77,5 +114,6 @@
 			"name": "footer"
 		}
 	],
-	"version": 2
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
