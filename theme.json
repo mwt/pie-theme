@@ -33,6 +33,11 @@
 					"slug": "system-antique"
 				},
 				{
+					"fontFamily": "Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif",
+					"name": "Modern Serif",
+					"slug": "system-modern"
+				},
+				{
 					"fontFace": [
 						{
 							"fontFamily": "Latin Modern Roman",
@@ -67,7 +72,7 @@
 							]
 						}
 					],
-					"fontFamily": "Latin Modern Roman",
+					"fontFamily": "'Latin Modern Roman', Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif",
 					"slug": "latin-modern-roman"
 				}
 			]
