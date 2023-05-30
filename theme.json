@@ -99,11 +99,6 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
-		"blocks": {
-			"core/heading": {
-				"css": "h2{margin-top:3rem}h3,h6{margin-top:2.5rem}h4{margin-top:2rem}h5{margin-top:1.8rem}h1+h2{margin-top:1.625rem}h2+h3,h3+h4,h4+h5{margin-top:.8rem}h5+h6{margin-top:-.8rem}h2,h3,h4,h5,h6{margin-bottom:.8rem}"
-			}
-		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
 			"text": "var(--wp--preset--color--foreground)"
