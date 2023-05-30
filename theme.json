@@ -80,11 +80,48 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"blocks": {
+			"core/heading": {
+				"css": "h2{margin-top:3rem}h3,h6{margin-top:2.5rem}h4{margin-top:2rem}h5{margin-top:1.8rem}h1+h2{margin-top:1.625rem}h2+h3,h3+h4,h4+h5{margin-top:.8rem}h5+h6{margin-top:-.8rem}h2,h3,h4,h5,h6{margin-bottom:.8rem}"
+			}
+		},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
 			"text": "var(--wp--preset--color--black)"
 		},
 		"elements": {
+			"h2": {
+				"typography": {
+					"fontSize": "1.7rem",
+					"lineHeight": "2"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "1.4rem",
+					"lineHeight": "1.6"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "1.2rem",
+					"lineHeight": "1.6"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "1rem",
+					"lineHeight": "1.6"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "1rem",
+					"fontStyle": "italic",
+					"fontWeight": "400",
+					"lineHeight": "1.6"
+				}
+			},
 			"link": {
 				":hover": {
 					"typography": {
