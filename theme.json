@@ -92,7 +92,7 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "1.5rem",
+			"blockGap": "1rem",
 			"padding": {
 				"bottom": "var(--wp--preset--spacing--50)",
 				"left": "var(--wp--preset--spacing--50)",
