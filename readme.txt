@@ -15,3 +15,8 @@ A theme that is pie
 = 0.0.1 =
 * Initial release
 
+== Copyright ==
+
+Pie WordPress Theme, (C) 2023 Pie
+Pie is distributed under the terms of the GNU AGPLv3.
+
