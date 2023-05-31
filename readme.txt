@@ -12,6 +12,9 @@ A theme that is pie
 
 == Changelog ==
 
+= 1.0.0 =
+* Settle on basic styles
+
 = 0.0.1 =
 * Initial release
 
