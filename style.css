@@ -29,6 +29,7 @@ Tags: full-site-editing,
   display: none;
 }
 
+/* lines under sections */
 h2 {
   border-bottom: solid;
   border-color: black;
