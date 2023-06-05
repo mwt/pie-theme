@@ -32,5 +32,5 @@ Tags: full-site-editing,
 /* lines under sections */
 h2 {
   border-bottom: solid;
-  border-color: black;
+  border-color: var(--wp--preset--color--foreground);
 }
