@@ -16,15 +16,20 @@ Tags: full-site-editing,
 
 /* abstract (more)/(less) links */
 .morelink {
-    text-decoration: none
+  text-decoration: none;
 }
 
 .morecontent,
-.with-hidden>.moreellipses {
-    display: inline
+.with-hidden > .moreellipses {
+  display: inline;
 }
 
 .moreellipses,
-.with-hidden>.morecontent {
-    display: none
+.with-hidden > .morecontent {
+  display: none;
+}
+
+h2 {
+  border-bottom: solid;
+  border-color: black;
 }
